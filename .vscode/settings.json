@@ -1,0 +1,29 @@
+{
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": false,   
+    "eslint.autoFixOnSave": true
+  },
+  "search.exclude": {
+    "**/_link": true,
+    "**/components-share": true,
+    "**/modules-share": true,
+    "**/npm": true,
+    "**/dist": true,
+    "**/unpackage": true
+  },
+  "stylelint.validate": ["scss", "vue", "sass"]
+}
