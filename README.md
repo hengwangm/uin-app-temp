@@ -1,4 +1,5 @@
-# my-fruit
+# uin-app-temp
+uin-app+eslint+prettier+stylelint+husky+commitlint+lint-staged模板
 
 ## Project setup
 ```
